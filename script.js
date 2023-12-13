@@ -1,5 +1,13 @@
 function shortcut(s1, s2) {
-  // your code here
+  // Check if either of the input strings is empty
+  if (s1.length === 0 || s2.length === 0) {
+    return '';
+  }
+
+  // Extract the initial letters of the input strings
+  const initialLetters = s1[0] + s2[0];
+
+  return initialLetters;
 }
 
 // Do not change the code below.
